@@ -1,0 +1,19 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+    color:lightcoral;
+    font-weight: bold;
+    background-color:antiquewhite;
+}
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    align-self:center;
+    margin-top: auto;
+}
