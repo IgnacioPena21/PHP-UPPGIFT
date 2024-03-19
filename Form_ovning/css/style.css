@@ -1,0 +1,47 @@
+body{
+    background-color: lightgrey;
+    min-height:100%;
+}
+
+h1{
+    text-align:center;
+}
+
+#formular{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: aliceblue;
+    border: 2px solid grey;
+    width:50%;
+    height:auto;
+    margin: 1%;
+    padding: 6%;
+    display:flex;
+    flex-direction:column;
+}
+.text{
+    border: none;
+    width: 50%;
+    display:flex;
+}
+.img_up{
+    background-color: white;
+    padding:1%;
+    width: 40%;
+    color:grey;
+}
+#upload{
+    border:none;
+    width:40%;
+}
+.container{
+    flex-direction:column;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
