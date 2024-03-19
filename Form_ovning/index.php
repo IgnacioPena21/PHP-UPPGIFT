@@ -15,15 +15,14 @@
         <label for="Lname">Last Name:</label>
         <input type="text" name="Lname" class="text">
         <label for="Bdate">Birth Date:</label>
-        <input type="text" name="Bdate" class="text">
-        <br>
+        <input type="text" name="Bdate" class="text"><br>
     <div class="img_up">
-        <input type="file" name="file_up" id="file_up" class="buttons">
-    </div>
-        <br>
+        <input type="file" name="file_up" id="file_up" class="buttons"></div><br>
         <input type="submit" name="upload" id="upload" value="SHOW" class="buttons">
     </form>
     </div>
+
+
     <?php
     //jag ger varje variabel en del av formulär för att 
     //använda dem senare
