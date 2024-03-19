@@ -17,8 +17,8 @@
         <label for="Bdate">Birth Date:</label>
         <input type="text" name="Bdate" class="text"><br>
     <div class="img_up">
-        <input type="file" name="file_up" id="file_up" class="buttons"></div><br>
-        <input type="submit" name="upload" id="upload" value="SHOW" class="buttons">
+        <input type="file" name="file_up" id="file_up"></div><br>
+        <input type="submit" name="upload" id="upload" value="SHOW">
     </form>
     </div>
 
@@ -59,8 +59,7 @@
         //visar bilden och data från formuläret
         echo "
         <div class='container'><img src='$file_destination' alt='$file_name' height='300' width='250'>
-        <p><b>$Fname $Lname<br>$Bdate</b></p></div>
-        ";
+        <p><b>$Fname $Lname<br>$Bdate</b></p></div>";
     }
     ?>
 </body>
