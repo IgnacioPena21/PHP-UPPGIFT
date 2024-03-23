@@ -97,9 +97,9 @@
             echo $date;
         }
     }
-
+*/
     //#########################################################
-
+/*
     //UPPGIFTER 1-5
 
     //1 och 2------------------------
@@ -145,7 +145,7 @@
     $addedtext = "<br>blablablablablablabla";
     file_put_contents($file_destination, $addedtext);
     echo file_get_contents($file_destination);
-    */
+
     //5-----------------------
     $csvfil = fopen("bok1.csv", "r");
     echo '<table>';
@@ -159,6 +159,7 @@
     echo '</table>';
 
     fclose($csvfil);
+*/
     ?>
 </body>
 </html>
