@@ -1,0 +1,35 @@
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+
+.header{
+    background-color: rgb(114, 255, 161);
+    display:flex;
+    flex-direction: column;
+    align-content:center;
+    text-align: center;
+    padding: 2%;
+    width:100%;
+}
+.container{
+    background-color: black;
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+.cont_img{
+    padding:1%;
+}
+.cont_img > img{
+    max-width:200px;
+    max-height:200px;
+}
+@media only screen and (min-width: 750px){
+    .cont_img > img{
+        max-width:150px;
+        max-height:150px;
+    }
+}
