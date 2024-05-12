@@ -40,7 +40,11 @@ else {
 }
 $conn -> close()
 */
+
+
 #---------------------------
+
+
 //Här skapar jag en tabell och kolumner för tabellen, data som hämtas är namn, efternamn och datum som data har sparats
 //om datumet är inte specifierad kommer det göras automatisk
 /*
@@ -52,6 +56,9 @@ if ($conn -> query($sql) === TRUE){
     echo "Table created successfully\n";
 }
 */
+
+//Här ger variablar värdet av form data och skapar en förfrågan för databasen för att skapa en ny relation
+//om det går bra det kommer stå ett meddelande som säger så, annars det kommer att printas vilket error fanns.
 if(isset($_POST['submit'])){
   $idrand = rand(10,100);
   $fornamn = $_POST['fornamn'];
